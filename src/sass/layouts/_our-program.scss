@@ -1,11 +1,14 @@
 .program-section {
   background-color: $primary-black-color;
 }
+.program-list {
+  padding-left: 96px;
+}
 .program-section .section-title {
   color: $primary-white-color;
   margin: 0;
-  padding-top: 50px;
   margin-bottom: 50px;
+  text-align: center;
 }
 .program-item:not(:last-child) {
   margin-bottom: 40px;
@@ -24,6 +27,7 @@
   margin-bottom: 10px;
 }
 .program-second-title {
+  position: relative;
   font-weight: bold;
   font-size: 12px;
   line-height: 1.649;
@@ -32,6 +36,30 @@
   color: $accent-color;
   margin: 0;
   margin-bottom: 5px;
+  padding-left: 17px;
+}
+.program-second-title::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 2px;
+  background-color: $accent-color;
+  left: 1px;
+  top: 9px;
+}
+.for-psevdo {
+  position: relative;
+  margin-bottom: 42px;
+
+  &::before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 2px;
+    background-color: $accent-color;
+    left: 1px;
+    top: 47px;
+  }
 }
 .program-description {
   font-weight: 500;
