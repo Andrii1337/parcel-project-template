@@ -36,6 +36,8 @@ section {
   }
   @include for-size(desktop) {
     width: 1314px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 .section-title {
