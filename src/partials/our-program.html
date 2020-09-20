@@ -111,6 +111,30 @@
       </li>
       <li>
         <h3 class="program-title">5 семестр</h3>
+        <picture>
+          <source
+            srcset="
+              ./images/program-desktop.png    1x,
+              ./images/program-desktop@2x.png 2x
+            "
+            media="(min-width:1344px)"
+          />
+          <source
+            srcset="
+              ./images/program-tablet.png    1x,
+              ./images/program-tablet@x2.png 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              ./images/program-mobile.png    1x,
+              ./images/program-mobile@2x.png 2x
+            "
+            media="(max-width:767px)"
+          />
+          <img src="./images/program-desktop.png" alt="" class="program-img" />
+        </picture>
         <ul class="list for-psevdo">
           <li class="program-description">Revision</li>
           <li class="program-description">Tests</li>

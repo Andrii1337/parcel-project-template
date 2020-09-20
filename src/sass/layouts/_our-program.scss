@@ -3,7 +3,7 @@
 
   @include for-size(tablet-landscape) {
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
   }
   @include for-size(desktop) {
     position: relative;
@@ -182,5 +182,19 @@
   @include for-size(tablet-landscape) {
     width: 176px;
     margin-right: 50px;
+  }
+}
+.program-img {
+  position: absolute;
+  opacity: 0.5;
+  bottom: -94px;
+  left: 365px;
+  @include for-size(tablet-landscape) {
+    bottom: -133px;
+    left: 467px;
+  }
+  @include for-size(desktop) {
+    bottom: -192px;
+    left: -144px;
   }
 }
