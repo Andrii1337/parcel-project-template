@@ -46,7 +46,6 @@
   }
 
   @include for-size(tablet-landscape) {
-    width: 100%;
     text-align: center;
   }
 }
@@ -55,7 +54,7 @@
     width: calc((100% - 167px) / 2);
   }
   @include for-size(desktop) {
-    width: calc((100% - 306px) / 3);
+    width: calc((100% - 305px) / 3);
   }
 }
 .choosen-item:not(:last-child) {
